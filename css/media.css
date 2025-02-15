@@ -1,0 +1,536 @@
+@media (max-width: 1560px) {
+    .about::before,
+    .about::after,
+    .differents__section::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1320px) {
+    .welcome__section {
+        background: none;
+    }
+
+    .welcome__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome__section {
+        margin-bottom: 70px;
+    }
+
+    .info__section {
+        margin-bottom: 70px;
+    }
+
+    .services {
+        margin-bottom: 70px;
+    }
+
+    .disinfection__section {
+        margin-bottom: 70px;
+    }
+
+    .about {
+        padding: 50px 0;
+        margin-bottom: 70px;
+    }
+
+    .coverages__section {
+        margin-bottom: 70px;
+    }
+
+    .differents__section {
+        padding: 50px 0;
+        margin-bottom: 70px;
+    }
+
+    .articles__section {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .differents__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .different {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .different__item:nth-child(2) {
+        margin: 0;
+    }
+    
+    .different__list {
+        margin: 10px 0 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .different__text {
+        margin: 5px 0 5px;
+    }
+
+    .different__span {
+        line-height: 200%;
+    }
+
+    .different__item {
+        align-items: start;
+    }
+
+    .advice__section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .advice__wrapper {
+        flex-direction: column;
+    }
+
+    .advice__top {
+        padding-bottom: 45px;
+    }
+
+    .advice__bottom {
+        padding-top: 45px;
+    } 
+
+    .advice__wrapper-form {
+        height: auto;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .footer__wrapper {
+        padding: 90px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1197px) {
+    .info__list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .disinfection__img {
+        display: none;
+    }
+
+    .disinfection__wrapper {
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .disinfection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1074px) {
+    .coverages__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .coverages {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .coverages__text {
+        margin-top: 0;
+    }
+
+    .coverages__lists {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 953px) {
+    .articles__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article__content {
+        padding: 30px;
+    }
+
+    .articles__top {
+        gap: 15px;
+        text-align: center;  
+        flex-direction: column;
+    }
+
+    .articles__details-title,
+    .articles__details-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 920px) {
+    .header__wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .welcome__wrapper {
+       padding: 50px 0;
+    }
+}
+
+@media (max-width: 817px) {
+    .about__results-wrapper {
+        gap: 42px;
+    }
+}
+
+@media (max-width: 800px) {
+    .info__wrapper {
+        margin-top: 45px;
+    }
+
+    .info__list {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__result {
+        gap: 12px;
+    }
+
+    .welcome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome__title {
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .welcome__text {
+        width: 100%;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .services__top {
+        margin-bottom: 55px;
+        flex-direction: column;
+    }
+
+    .services__top-title {
+        text-align: center;
+    }
+
+    .disinfection__title {
+        margin-bottom: 10px;
+    }
+
+    .disinfection__subtitle {
+        font-size: 32px;
+    }
+
+    .disinfection__text {
+        margin: 10px 0 11px;
+        font-size: 19px;
+    }
+
+    .info-card__title {
+        margin-top: 20px;
+    }
+
+    .advice__wrapper-form,
+    .form__box textarea {
+        width: 100%;
+    }
+
+    .form__wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form__box input {
+        height: 65px;
+    }
+
+    .advice__wrapper-form {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+@media (max-width: 690px) {
+    .section__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 552px) {
+    .welcome__links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 530px) {
+    .footer__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 467px) {
+    .articles__links {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 460px) {
+    .different__item:nth-child(2) {
+        margin: 0;
+    }
+
+    .different__list {
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .section__title {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .section__text {
+        font-size: 15px;
+    }
+
+    .about__play {
+        padding: 40px 40px;
+    }
+
+    .coverages__lists {
+        gap: 35px;
+    }
+
+    .different__list {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .different__content {
+        align-self: self-end;
+    }
+
+    .different__item {
+        align-items: center;
+    }
+
+    .different__content-text {
+        font-size: 40px;
+    }
+
+    .different__item-span {
+        font-size: 17px;
+    }
+
+    .article__content-text {
+        margin-top: 10px;
+    }
+
+    .article__content {
+        margin-top: -36px;
+    }
+
+    .form__box input {
+        width: 235px;
+        height: 60px;
+    }
+
+    .footer__title {
+        margin-bottom: 10px;
+    }
+
+    .footer__wrapper {
+        padding: 55px 0;
+        gap: 25px;
+    }
+
+    .footer__info {
+        gap: 0;
+    }
+
+    .footer__advice-tel {
+        font-size: 22px;
+    }
+
+    .articles__link,
+    .advice__bottom-link,
+    .different__link,
+    .coverages__link,
+    .disinfection__link:not(.disinfection__link:nth-child(2)),
+    .services__top-link,
+    .info__link,
+    .welcome__link {
+        padding: 23px 21px;
+        max-width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .info__link {
+        max-width: 160px;
+    }
+
+    .footer__advice-link {
+        padding: 23px 21px;
+        width: 193px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card__title {
+        font-size: 25px;
+    }
+
+    .info-card__text {
+        font-size: 19px;
+    }
+
+    .disinfection__title {
+        font-size: 14px;
+    }
+
+    .disinfection__subtitle {
+        font-size: 24px;
+    }
+
+    .disinfection__text {
+        font-size: 16px;
+    }
+
+    .welcome__links {
+        gap: 20px;
+    }
+
+    .article__content-title {
+        font-size: 20px;
+    }
+
+    .article__content-text {
+        font-size: 19px;
+    }
+
+    .advice__top {
+        padding-bottom: 35px;
+    }
+
+    .advice__bottom {
+        padding-top: 35px;
+    }
+
+    .feedback__text {
+        font-size: 17px;
+    }
+
+    .feedback__link {
+        font-size: 22px;
+    }
+
+    .footer__info-text,
+    .footer__contact-text,
+    .footer__contact-tel,
+    .footer__contact-email,
+    .hours__box-span,
+    .footer__advice-text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 333px) {
+    .welcome__feedback {
+        flex-direction: column;
+    }
+
+    .feedback__wrapper {
+        align-items: center;
+    }
+
+    .form__button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .coverages__lists {
+        gap: 20px;
+    }
+
+    .article__content-title {
+        font-size: 17px;
+    }
+
+    .article__content-text {
+        font-size: 15px;
+    }
+
+    .article__info-link {
+        padding: 15px;
+        width: 45px;
+        height: 40px;
+    }
+
+    .article__info-text {
+        font-size: 16px;
+    }
+}
